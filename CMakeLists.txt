@@ -43,6 +43,6 @@ foreach (test_file ${test_files})
     add_executable(${name} ${test_file} ${help_test_files})
 
     target_link_libraries(${name}
-                        CollectionStatic
+                        Collection
                 )
 endforeach ()
