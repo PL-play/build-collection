@@ -5,15 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories("include")
 
-add_library(CollectionStatic STATIC src/list/array_list.c src/list/linked_list.c src/tree/binary_search_tree.c src/heap/binary_heap.c
-        src/tree/avl_tree.c src/tree/rb_tree.c src/stack/stack_al.c src/tree/trie.c src/hashtable/hash_table.c src/hashtable/hash-int.c
-        src/hashtable/hash-pointer.c src/hashtable/hash-string.c src/hashtable/compare-int.c src/hashtable/compare-pointer.c
-        src/hashtable/compare-string.c src/hashtable/hash_set.c src/tree/b_tree.c src/queue/dqueue_ll.c src/stack/stack_ll.c
-        src/tree/bp_tree_indisk.c src/tree/b_tree2.c src/unionfind/union_find.c src/queue/priority_queue.c src/hashtable/hash-double.c
-        src/hashtable/sha256.c
-)
-
-
 add_library(Collection STATIC src/list/array_list.c src/list/linked_list.c src/tree/binary_search_tree.c src/heap/binary_heap.c
         src/tree/avl_tree.c src/tree/rb_tree.c src/stack/stack_al.c src/tree/trie.c src/hashtable/hash_table.c src/hashtable/hash-int.c
         src/hashtable/hash-pointer.c src/hashtable/hash-string.c src/hashtable/compare-int.c src/hashtable/compare-pointer.c
@@ -22,25 +13,17 @@ add_library(Collection STATIC src/list/array_list.c src/list/linked_list.c src/t
         src/hashtable/sha256.c
 )
 
-target_include_directories(CollectionStatic PUBLIC
-        $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include>
-        $<INSTALL_INTERFACE:include>
-)
 
 target_include_directories(Collection PUBLIC
         $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
 )
 
-# 安装动态库
+# 安装
 install(TARGETS Collection
         LIBRARY DESTINATION lib
         PUBLIC_HEADER DESTINATION include)
 
-# 安装静态库
-install(TARGETS CollectionStatic
-        ARCHIVE DESTINATION lib
-        PUBLIC_HEADER DESTINATION include)
 
 # 批量安装头文件目录
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/include/ DESTINATION include)
