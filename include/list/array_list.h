@@ -2,8 +2,8 @@
 // Created by ran on 2024/1/1.
 //
 
-#ifndef INTERPRETER_COLLECTION_ARRAY_LIST_H_
-#define INTERPRETER_COLLECTION_ARRAY_LIST_H_
+#ifndef ZCOLLECTION_ARRAY_LIST_H_
+#define ZCOLLECTION_ARRAY_LIST_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -134,4 +134,4 @@ void sort_arraylist(ArrayList *array_list, ArrayListDataCompare comparator);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_ARRAY_LIST_H_
+#endif //ZCOLLECTION_ARRAY_LIST_H_

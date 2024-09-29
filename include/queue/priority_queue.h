@@ -2,8 +2,8 @@
 // Created by ran on 2024/2/5.
 //
 
-#ifndef INTERPRETER_COLLECTION_QUEUE_PRIORITY_QUEUE_H_
-#define INTERPRETER_COLLECTION_QUEUE_PRIORITY_QUEUE_H_
+#ifndef ZCOLLECTION_QUEUE_PRIORITY_QUEUE_H_
+#define ZCOLLECTION_QUEUE_PRIORITY_QUEUE_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -22,4 +22,4 @@ PriorityQueueData pq_peek(PriorityQueue *priority_queue);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_QUEUE_PRIORITY_QUEUE_H_
+#endif //ZCOLLECTION_QUEUE_PRIORITY_QUEUE_H_

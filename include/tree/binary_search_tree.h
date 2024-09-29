@@ -2,8 +2,8 @@
 // Created by ran on 2024/1/3.
 //
 
-#ifndef INTERPRETER_COLLECTION_TREE_BINARY_SEARCH_TREE_H_
-#define INTERPRETER_COLLECTION_TREE_BINARY_SEARCH_TREE_H_
+#ifndef ZCOLLECTION_TREE_BINARY_SEARCH_TREE_H_
+#define ZCOLLECTION_TREE_BINARY_SEARCH_TREE_H_
 
 #include <stdbool.h>
 #ifdef __cplusplus
@@ -205,4 +205,4 @@ BSTNode *select_of_bst(BSTNode *root, unsigned int rank);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_TREE_BINARY_SEARCH_TREE_H_
+#endif //ZCOLLECTION_TREE_BINARY_SEARCH_TREE_H_

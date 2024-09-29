@@ -2,8 +2,8 @@
 // Created by ran on 2024-03-30.
 //
 
-#ifndef CLOX_COLLECTION_LIST_LINKED_LIST_M_H_
-#define CLOX_COLLECTION_LIST_LINKED_LIST_M_H_
+#ifndef ZCOLLECTION_LIST_LINKED_LIST_M_H_
+#define ZCOLLECTION_LIST_LINKED_LIST_M_H_
 
 #define M_LINKED_LIST_SUCCESS 0
 #define M_LINKED_LIST_OPT_ON_NULL_ERROR (-1)
@@ -460,4 +460,4 @@ static __name##ListValue *__name##linked_list_to_array(__name##LinkedListNode *h
 __name##ListValue *__name##value_array(__name##LinkedList *list) { \
   return __name##linked_list_to_array(list->head); \
 }
-#endif //CLOX_COLLECTION_LIST_LINKED_LIST_M_H_
+#endif //ZCOLLECTION_LIST_LINKED_LIST_M_H_

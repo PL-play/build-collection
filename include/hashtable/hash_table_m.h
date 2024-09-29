@@ -1,8 +1,8 @@
 //
 // Created by ran on 2024-03-29.
 //
-#ifndef INTERPRETER_COLLECTION_HASHTABLE_HASH_TABLE_M_H_
-#define INTERPRETER_COLLECTION_HASHTABLE_HASH_TABLE_M_H_
+#ifndef ZCOLLECTION_HASHTABLE_HASH_TABLE_M_H_
+#define ZCOLLECTION_HASHTABLE_HASH_TABLE_M_H_
 #define BASE_HASH_TABLE(__name) \
         typedef struct {               \
            unsigned int bucket_capacity; \

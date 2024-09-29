@@ -5,8 +5,8 @@
  * A b-tree with pre-split when inserting and pre-rotate/merge when deleting.
  *
  */
-#ifndef INTERPRETER_INTERPRETER_COLLECTION_TREE_B_TREE2_H_
-#define INTERPRETER_INTERPRETER_COLLECTION_TREE_B_TREE2_H_
+#ifndef ZCOLLECTION_TREE_B_TREE2_H_
+#define ZCOLLECTION_TREE_B_TREE2_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -31,4 +31,4 @@ int bt_validate(btree *tree);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_INTERPRETER_COLLECTION_TREE_B_TREE2_H_
+#endif //ZCOLLECTION_TREE_B_TREE2_H_

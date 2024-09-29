@@ -2,8 +2,8 @@
 // Created by ran on 2024/1/4.
 //
 
-#ifndef INTERPRETER_COLLECTION_HEAP_BINARY_HEAP_H_
-#define INTERPRETER_COLLECTION_HEAP_BINARY_HEAP_H_
+#ifndef ZCOLLECTION_HEAP_BINARY_HEAP_H_
+#define ZCOLLECTION_HEAP_BINARY_HEAP_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -76,4 +76,4 @@ unsigned int size_of_binary_heap(BinaryHeap *heap);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_HEAP_BINARY_HEAP_H_
+#endif //ZCOLLECTION_HEAP_BINARY_HEAP_H_

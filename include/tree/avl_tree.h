@@ -2,8 +2,8 @@
 // Created by zhang on 2024/1/5.
 //
 
-#ifndef INTERPRETER_COLLECTION_TREE_AVL_TREE_H_
-#define INTERPRETER_COLLECTION_TREE_AVL_TREE_H_
+#ifndef ZCOLLECTION_TREE_AVL_TREE_H_
+#define ZCOLLECTION_TREE_AVL_TREE_H_
 #include <stdbool.h>
 #ifdef __cplusplus
 extern "C" {
@@ -80,4 +80,4 @@ AVLNode* avl_tree_root_node(AVLTree* avl_tree);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_TREE_AVL_TREE_H_
+#endif //ZCOLLECTION_TREE_AVL_TREE_H_

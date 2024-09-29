@@ -2,8 +2,8 @@
 // Created by ran on 2024/1/10.
 //
 
-#ifndef INTERPRETER_COLLECTION_TREE_TIRE_H_
-#define INTERPRETER_COLLECTION_TREE_TIRE_H_
+#ifndef ZCOLLECTION_TREE_TIRE_H_
+#define ZCOLLECTION_TREE_TIRE_H_
 #include <stdbool.h>
 #ifdef __cplusplus
 extern "C" {
@@ -37,4 +37,4 @@ void free_trie(Trie *trie);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_TREE_TIRE_H_
+#endif //ZCOLLECTION_TREE_TIRE_H_

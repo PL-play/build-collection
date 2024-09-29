@@ -2,8 +2,8 @@
 // Created by ran on 2024/1/25.
 //
 
-#ifndef INTERPRETER_COLLECTION_UNIONFIND_UNION_FIND_H_
-#define INTERPRETER_COLLECTION_UNIONFIND_UNION_FIND_H_
+#ifndef ZCOLLECTION_UNIONFIND_UNION_FIND_H_
+#define ZCOLLECTION_UNIONFIND_UNION_FIND_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -34,4 +34,4 @@ int uf_same_set(UnionFind *, int p, int q);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_UNIONFIND_UNION_FIND_H_
+#endif //ZCOLLECTION_UNIONFIND_UNION_FIND_H_

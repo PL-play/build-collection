@@ -2,8 +2,8 @@
 // Created by ran on 2024/1/7.
 //
 
-#ifndef INTERPRETER_COLLECTION_STACK_STACK_ll_H_
-#define INTERPRETER_COLLECTION_STACK_STACK_ll_H_
+#ifndef ZCOLLECTION_STACK_STACK_ll_H_
+#define ZCOLLECTION_STACK_STACK_ll_H_
 /**
  * stack based on linked list
  */
@@ -30,4 +30,4 @@ bool is_empty_stack_ll(StackLL *);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_STACK_STACK_ll_H_
+#endif //ZCOLLECTION_STACK_STACK_ll_H_

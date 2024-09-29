@@ -17,8 +17,8 @@
  *     nodes.
  *
  */
-#ifndef INTERPRETER_COLLECTION_TREE_RB_TREE_H_
-#define INTERPRETER_COLLECTION_TREE_RB_TREE_H_
+#ifndef ZCOLLECTION_TREE_RB_TREE_H_
+#define ZCOLLECTION_TREE_RB_TREE_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -186,4 +186,4 @@ double rb_tree_diff_lr_height(RBTreeNode *node);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_TREE_RB_TREE_H_
+#endif //ZCOLLECTION_TREE_RB_TREE_H_

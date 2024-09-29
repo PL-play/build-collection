@@ -21,8 +21,8 @@
  *
  *
  */
-#ifndef INTERPRETER_COLLECTION_TREE_B_TREE_H_
-#define INTERPRETER_COLLECTION_TREE_B_TREE_H_
+#ifndef ZCOLLECTION_TREE_B_TREE_H_
+#define ZCOLLECTION_TREE_B_TREE_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -60,4 +60,4 @@ int btree_validate(BTree* tree);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_TREE_B_TREE_H_
+#endif //ZCOLLECTION_TREE_B_TREE_H_

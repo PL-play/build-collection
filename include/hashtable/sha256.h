@@ -2,8 +2,8 @@
 // Created by ran on 2024/6/27.
 //
 
-#ifndef CLOX_CLOX_COLLECTION_HASHTABLE_SHA256_H_
-#define CLOX_CLOX_COLLECTION_HASHTABLE_SHA256_H_
+#ifndef ZCOLLECTION_HASHTABLE_SHA256_H_
+#define ZCOLLECTION_HASHTABLE_SHA256_H_
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -69,4 +69,4 @@ void sha256_file(FILE *file, uint8_t *hash);
 #ifdef __cplusplus
 }
 #endif
-#endif //CLOX_CLOX_COLLECTION_HASHTABLE_SHA256_H_
+#endif //ZCOLLECTION_HASHTABLE_SHA256_H_

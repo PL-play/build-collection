@@ -4,8 +4,8 @@
 /**
  * Circular Doubly Linked List.
  */
-#ifndef INTERPRETER_COLLECTION_LINKED_LIST_H_
-#define INTERPRETER_COLLECTION_LINKED_LIST_H_
+#ifndef ZCOLLECTION_LINKED_LIST_H_
+#define ZCOLLECTION_LINKED_LIST_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -89,4 +89,4 @@ ListValue *value_array(LinkedList *list);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_LINKED_LIST_H_
+#endif //ZCOLLECTION_LINKED_LIST_H_

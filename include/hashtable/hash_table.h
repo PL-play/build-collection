@@ -13,8 +13,8 @@
  * Also, the 'NULL' key is supported and always stored in the index 0 slot.
  *
  */
-#ifndef INTERPRETER_COLLECTION_HASHTABLE_HASH_TABLE_H_
-#define INTERPRETER_COLLECTION_HASHTABLE_HASH_TABLE_H_
+#ifndef ZCOLLECTION_HASHTABLE_HASH_TABLE_H_
+#define ZCOLLECTION_HASHTABLE_HASH_TABLE_H_
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -245,4 +245,4 @@ void free_hashtable_iter(HashtableIterator *iter);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_HASHTABLE_HASH_TABLE_H_
+#endif //ZCOLLECTION_HASHTABLE_HASH_TABLE_H_

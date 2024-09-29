@@ -2,8 +2,8 @@
 // Created by ran on 2024/1/13.
 //
 
-#ifndef INTERPRETER_COLLECTION_HASHTABLE_HASH_SET_H_
-#define INTERPRETER_COLLECTION_HASHTABLE_HASH_SET_H_
+#ifndef ZCOLLECTION_HASHTABLE_HASH_SET_H_
+#define ZCOLLECTION_HASHTABLE_HASH_SET_H_
 
 #ifdef __cplusplus
 extern "C" {
@@ -225,4 +225,4 @@ void free_hashset_iter(HashsetIterator *iter);
 #ifdef __cplusplus
 }
 #endif
-#endif //INTERPRETER_COLLECTION_HASHTABLE_HASH_SET_H_
+#endif //ZCOLLECTION_HASHTABLE_HASH_SET_H_
